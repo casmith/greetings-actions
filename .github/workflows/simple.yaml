@@ -35,7 +35,7 @@ jobs:
     
     steps: 
     - id: report-count
-      uses: <your github userid>/arg-count-action@main
+      uses: casmith/arg-count-action@main
       with: 
         arguments-to-count: ${{ github.event.inputs.myValues }}
     - run: echo 
